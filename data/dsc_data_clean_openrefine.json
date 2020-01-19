@@ -1,0 +1,6245 @@
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library DIIT",
+          "Library - DIIT",
+          "Library, DIIT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library DIIT"
+      },
+      {
+        "from": [
+          "Political Science",
+          "Political science",
+          "political science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Political Science"
+      },
+      {
+        "from": [
+          "Geography",
+          "geography"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Geography"
+      },
+      {
+        "from": [
+          "IoES",
+          "IOES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "IoES"
+      },
+      {
+        "from": [
+          "Medicine",
+          "medicine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Medicine"
+      },
+      {
+        "from": [
+          "UCLA Library",
+          "UCLA library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Library"
+      },
+      {
+        "from": [
+          "Library and Information Studies",
+          "Library and information studies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library and Information Studies"
+      },
+      {
+        "from": [
+          "Information Studies, MLIS",
+          "MLIS / Information Studies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies, MLIS"
+      },
+      {
+        "from": [
+          "Information Studies",
+          "Information studies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      },
+      {
+        "from": [
+          "Archaeology",
+          "archaeology"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Archaeology"
+      },
+      {
+        "from": [
+          "Urban Planning",
+          "Urban planning"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Urban Planning"
+      },
+      {
+        "from": [
+          "Education",
+          "education"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Education"
+      },
+      {
+        "from": [
+          "I School",
+          "i school"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "I School"
+      },
+      {
+        "from": [
+          "Public Policy",
+          "Public policy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Public Policy"
+      },
+      {
+        "from": [
+          "Library",
+          "library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "M.A.S.",
+          "MAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MAS"
+      },
+      {
+        "from": [
+          "Biostatistics",
+          "biostatistics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biostatistics"
+      },
+      {
+        "from": [
+          "NA",
+          "N/A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NA"
+      },
+      {
+        "from": [
+          "Sociology",
+          "sociology"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sociology"
+      },
+      {
+        "from": [
+          "math department",
+          "Math Department"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "math department"
+      },
+      {
+        "from": [
+          "Environmental Health Sciences",
+          "Environmental health sciences"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Environmental Health Sciences"
+      },
+      {
+        "from": [
+          "-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NA"
+      },
+      {
+        "from": [
+          "GSE&IS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GSE&IS"
+      },
+      {
+        "from": [
+          "AOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AOS"
+      },
+      {
+        "from": [
+          "MIMG"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MIMG"
+      },
+      {
+        "from": [
+          "Social Science Data / Public Policy / Gov't Docs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Social Science Data / Public Policy / Gov't Docs"
+      },
+      {
+        "from": [
+          "Psychiatry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Psychiatry"
+      },
+      {
+        "from": [
+          "UCLA extension"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA extension"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Environment, Health & Safety",
+          "Environmental Health Sciences",
+          "environment health science",
+          "Environmental Sciences"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Environment, Health & Safety"
+      },
+      {
+        "from": [
+          "USC Libraries",
+          "USC Libraries -- Cinematic Arts Library",
+          "USC Libraries, Leavey Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USC Libraries"
+      },
+      {
+        "from": [
+          "Library and Information Science",
+          "Library and Information Studies",
+          "library and information studies (MLIS)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library and Information Science"
+      },
+      {
+        "from": [
+          "Spanish & Portuguese",
+          "Spanish & Portuguese / DH Certificate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spanish & Portuguese"
+      },
+      {
+        "from": [
+          "Information Studies",
+          "Information Studies, MLIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      },
+      {
+        "from": [
+          "Spanish and Portuguese",
+          "Spanish and Portuguese Department"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spanish and Portuguese"
+      },
+      {
+        "from": [
+          "Institute of the Enviro. and Sustainability",
+          "Institute of the Environment and Sustainability"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Institute of the Enviro. and Sustainability"
+      },
+      {
+        "from": [
+          "Center for Digital Humanities",
+          "center for digital humanities, EPIC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Center for Digital Humanities"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA Library",
+          "UCLA Library Special Collections",
+          "UCLA Library East Asian Library",
+          "UCLA Library (Powell)",
+          "UCLA Library DIIT",
+          "UCLA Library, Cataloging and Metadata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Library"
+      },
+      {
+        "from": [
+          "Library DIIT",
+          "Library DIIT / MLIS",
+          "Library IT (DIIT)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library DIIT"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library and Information Science",
+          "Library Information Science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library and Information Science"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MS Business Analytics",
+          "MS in Business Analytics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MS Business Analytics"
+      },
+      {
+        "from": [
+          "Center for Health Policy Research",
+          "UCLA Center for Health Policy Research"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Center for Health Policy Research"
+      },
+      {
+        "from": [
+          "Spanish and Portuguese",
+          "Spanish & Portuguese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Spanish and Portuguese"
+      },
+      {
+        "from": [
+          "Information Studies",
+          "UCLA Information Studies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      },
+      {
+        "from": [
+          "Master of Urban and Regional Planning",
+          "Masters in Urban and Regional Planning"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Master of Urban and Regional Planning"
+      },
+      {
+        "from": [
+          "Higher Education & Organizational Change",
+          "Higher Education and Organizational Change"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Higher Education & Organizational Change"
+      },
+      {
+        "from": [
+          "Data Science Center",
+          "UCLA Data Science Center"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Data Science Center"
+      },
+      {
+        "from": [
+          "The Coding Bootcamp",
+          "Coding Bootcamp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "The Coding Bootcamp"
+      },
+      {
+        "from": [
+          "IoES - California Center for Sustainable Communities",
+          "UCLA California Center for Sustainable Communities"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "IoES - California Center for Sustainable Communities"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IoES - California Center for Sustainable Communities",
+          "California Center for Sustainable Communities"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "IoES - California Center for Sustainable Communities"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Staff / Grad Student",
+          "Grad Student & Staff",
+          "Grad Student + Staff",
+          "Grad Student / Staff",
+          "grad student & staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff / Grad Student"
+      },
+      {
+        "from": [
+          "Graduate Student",
+          "Graduate student",
+          "graduate student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "PhD Student",
+          "PhD student",
+          "phd student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Undergrad",
+          "UNDERGRAD",
+          "undergrad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Undergrad"
+      },
+      {
+        "from": [
+          "Undergraduate Student",
+          "Undergraduate student",
+          "undergraduate student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Undergraduate Student"
+      },
+      {
+        "from": [
+          "Staff",
+          "staff",
+          "STAFF"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      },
+      {
+        "from": [
+          "Grad Student",
+          "grad student",
+          "Grad student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Faculty",
+          "faculty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty"
+      },
+      {
+        "from": [
+          "Graduate",
+          "graduate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Graduate Student, Ph.D student",
+          "Graduate student (PhD)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Library Staff",
+          "Library staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library Staff"
+      },
+      {
+        "from": [
+          "Visiting Scholar",
+          "visiting scholar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Visiting Scholar"
+      },
+      {
+        "from": [
+          "Visiting Graduate Student",
+          "Visiting graduate student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Postdoc",
+          "postdoc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Postdoc"
+      },
+      {
+        "from": [
+          "Student",
+          "student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Student"
+      },
+      {
+        "from": [
+          "doctoral student",
+          "Doctoral Student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Grad",
+          "grad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      },
+      {
+        "from": [
+          "Undergraduate",
+          "undergraduate"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Undergraduate"
+      },
+      {
+        "from": [
+          "-"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NA"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1st Year PhD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Visiting Scholar/Post Doc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Visiting Scholar"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Visiting Graduate Researcher"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Undergrad Junior"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Undergraduate"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Undergrad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Undergraduate"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Staff / Grad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff / Grad Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Staff (and general GIS nerd)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Faculty / Librarian",
+          "Faculty/Librarian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty / Librarian"
+      },
+      {
+        "from": [
+          "Post Doc",
+          "Postdoc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Postdoc"
+      },
+      {
+        "from": [
+          "Masters student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "staff and grad student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff / Grad Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Professor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pos-Doc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Posdoc"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lecturer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alumni (graduated June 2017)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alumni"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "alumni"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alumni"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Archivist"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Archivist/Curator"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fac"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Faculty (Undergraduate)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Graduate Student, PhD in Public Health"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Graduate Student & Library Employee"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Instructor/Metadata Librarian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Librarian/Staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Posdoc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Postdoc"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PostDoc SLAGC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Postdoc"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Postgraduate resident"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Postdoc"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Principal Rare Book Cataloger/Archivist"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Undergraduate Student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Undergraduate"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alum of UCR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Alumni"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Digital Archivist"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Faculty / Librarian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Librarian"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Graduate Student and Faculty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Programming Pizza Party (CANCELED)",
+          "Programming Pizza Party (Canceled)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Programming Pizza Party (CANCELED)"
+      },
+      {
+        "from": [
+          "Introduction to R",
+          "Introduction  to R"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Introduction to R"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ICPSR Data Fair 2018 - Data: Powered By You - Day 1",
+          "ICPSR Data Fair 2018 - Data: Powered By You - Day 2",
+          "ICPSR Data Fair 2018 - Data: Powered By You - Day 3",
+          "ICPSR Data Fair 2018 - Data: Powered By You - Day 4",
+          "ICPSR Data Fair 2018 - Data: Powered By You - Day 5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ICPSR Data Fair 2018 - Data: Powered By You "
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Advanced R Book Club Part 2: Functional Programming",
+          "Advanced R Book Club Part 3: OO Programming",
+          "Advanced R Book Club Part 4: OO Programming",
+          "Advanced R Book Club Part 6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Advanced R Book Club"
+      },
+      {
+        "from": [
+          "Software Carpentry Workshop (R version)",
+          "Software Carpentry Workshop - Python - DAY 2",
+          "Software Carpentry Workshop - Python - Day 1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Software Carpentry Workshop"
+      },
+      {
+        "from": [
+          "Library Carpentry Workshop",
+          "Library Carpentry Workshop - UCLA - July 24-25 -  9-4:30PM",
+          "Library Carpentry Global Lesson Sprint"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library Carpentry Workshop"
+      },
+      {
+        "from": [
+          "Data Visualization in R",
+          "Data Visualization in R using GGPLOT2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Data Visualization in R"
+      },
+      {
+        "from": [
+          "Python Fundamentals",
+          "Python Fundamentals 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Python Fundamentals"
+      },
+      {
+        "from": [
+          "R Programming Fundamentals",
+          "R Programming Fundamentals 2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "R Programming Fundamentals"
+      },
+      {
+        "from": [
+          "Data Carpentry for Social Science: Oct 16-17 & 23-24, 2019",
+          "Data Carpentry for Social Science: Oct  23-24, 2019"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Data Carpentry Workshop"
+      },
+      {
+        "from": [
+          "Python for Data Science",
+          "Python for Data Science (MASS)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Python for Data Science"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data Cleaning with OpenRefine",
+          "Data Cleaning with Open Refine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Data Cleaning with OpenRefine"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Refine Continued and Bring Your Own Dirty Data",
+          "Open Refine Meetup"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Open Refine Workshop"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data cleaning and preparation in R using DPLYR and TidyR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Data Cleaning with R"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Programming Pizza Party (Python/R/Data)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Programming Pizza Party"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Programming Pizza Party (R/Python)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Programming Pizza Party"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "title",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Programming Pizza Party: Python & R"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Programming Pizza Party"
+      }
+    ],
+    "description": "Mass edit cells in column title"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Staff / Grad Student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Staff Researcher"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "visiting researcher in ucla law school"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Visiting Scholar"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Married"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "katcho@ucla.edu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Getty staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Faculty/Staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Faculty"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fellow"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DSC Staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Developer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Lab Assistant to Professor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Speaker - Regional Technical Manager"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Speaker - Geographic Information Officer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Speaker - Project Manager"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Speaker"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Director of the Documenting Global Voices Program"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ID"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "hybrid - EPIC Pedagogue"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library Staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Extension Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Working"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Postdoc"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "JPL / NASA Western Water Applications Office"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Manager - Applications Transition"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Aerial Photos Archive, Directory"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Names/Series Authorities Specialist"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Research Analyst"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Recent alum and staff"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Staff"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Recent MLIS grad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA Extension Student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Alumni"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Community Member"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status_graduate_student_faculty_post_doc",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Visiting Scholar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate Student"
+      }
+    ],
+    "description": "Mass edit cells in column status_graduate_student_faculty_post_doc"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA Extension Applications Programming",
+          "UCLA extension"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Extension"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Graduate School of Education - Higher Education and Organizational Change",
+          "Graduate School of Education and Information Studies"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate School of Education and Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library",
+          "UCLA Library",
+          "Library DIIT",
+          "Library IT",
+          "YRL Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "Education",
+          "Education - SRM"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Education"
+      },
+      {
+        "from": [
+          "UCLA Library",
+          "YRL Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "Anderson",
+          "UCLA Anderson"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anderson"
+      },
+      {
+        "from": [
+          "Master of Urban and Regional Planning",
+          "Urban and Regional Planning"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Urban and Regional Planning"
+      },
+      {
+        "from": [
+          "Social Neuroscience",
+          "Neuroscience"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Neuroscience"
+      },
+      {
+        "from": [
+          "Digital Library Program",
+          "UCLA Digital Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "Psychiatry",
+          "Dep. of Psychiatry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Psychiatry"
+      },
+      {
+        "from": [
+          "UCLA Library",
+          "UCLA Digital Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "Statistics",
+          "Statistics major"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Statistics"
+      },
+      {
+        "from": [
+          "Library DIIT",
+          "Library IT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "UCLA Library",
+          "UCLA Arts Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      },
+      {
+        "from": [
+          "CHS - Public Health",
+          "Public Health"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Public Health"
+      },
+      {
+        "from": [
+          "Geography",
+          "UCLA Geography"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Geography"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Urban Planning",
+          "Urban and Regional Planning"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Urban and Regional Planning"
+      },
+      {
+        "from": [
+          "Library and Information Science",
+          "GSEIS (Library and Information Studies)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library and Information Science"
+      },
+      {
+        "from": [
+          "Powell",
+          "Powell Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Powell Library"
+      },
+      {
+        "from": [
+          "Geography",
+          "geography + cdh"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Geography"
+      },
+      {
+        "from": [
+          "Statistics",
+          "Applied Statistics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Statistics"
+      },
+      {
+        "from": [
+          "Library",
+          "Clark Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MaSS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Master of Social Science"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "math department"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Math"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mathematics"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Math"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ora"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Office of Research Administration"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CDH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Center for Digital Humanities"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DIIT / MLIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DIIT"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DIITOS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DIIT"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "econ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Economics"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "VC of Research for Sustainable LA Grand Challenge"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sustainable LA Grand Challenge"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA DLP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DIIT"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA Digital Initiatives & IT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DIIT"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sustainable LA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sustainable LA Grand Challenge"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA Data Archive & Sustainable LA Grand Challenge"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "biochemistry"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Biochemistry"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Art History and Digital Humanities"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Art History"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Anthropology/Digital Humanities",
+          "Anthropology"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anthropology"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SUE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library- Scholarly Communication"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library, Cataloging & Metadata Center"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library Special Collections"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library Print Acquisitions"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library Access Services"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library Preservation"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IoES - California Center for Sustainable Communities"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "IoES"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IoES PhD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "IoES"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EPIC, Division of the Humanities"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Division of the Humanities"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EPIC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Division of the Humanities"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Documenting Global Voices"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DIIT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Anderson Forecast"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anderson"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Anderson School of Management"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anderson"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data Archive"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data Science Center"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DLP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DSC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Getty Trust Institutional Records and Archives"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Getty"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "GSE&IS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Graduate School of Education and Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "GRI-Special Collections"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Getty"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I School"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "IS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LARIAC; LA County GIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LA County GIS"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Math / Econ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Math"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MLIS / Arts Library",
+          "MLIS / library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MLIS"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CSE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Computer Science and Engineering"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Computer Science and Engineering"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Computer Science"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Statistics Department"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Statistics"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MLIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Library and Information Science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MLIS Program"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Department of Geography"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Geography"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Department of Psychology"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Psychology"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EHS FSPH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Environmental Health Sciences"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "HDP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human Development and Psychology"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MDH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Million Dollar Hoods"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MIMG"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Microbiology, Immunology and Molecular Genetics "
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MLIS Media Archives Studies (GSE&IS)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "OIT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Office of Information Technology"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Philosophy major/data geek (been doing self-paced R modules through Edx)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Philosophy"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Social Science Data / Public Policy / Gov't Docs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "STATS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Statistics"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLA GSEIS/Getty"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Information Studies"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MURP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Urban and Regional Planning"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MSTP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Medical Scientist Training Program"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NSIDP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Neuroscience"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Powell Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "School of Law, VGR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School of Law"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "USC Norris Medical Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USC Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "USC Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USC Libraries"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "UCLAX"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Extension"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "The Coding Bootcamp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Extension"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Science & Engineering Library, USC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USC Libraries"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Perspective student"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Community"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MPP/JD"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "School of Law"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MPH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Master of Public Health"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mount St. Mary's University - Digital Initiatives Librarian"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mount St. Mary's University"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MBA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Anderson"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "LSC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Library"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MAE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mechanical and Aerospace Engineering"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "MAS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Master of Applied Statistics"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EEB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ecology and Evolutionary Biology"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ECE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Electrical and Computer Engineering"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Human Dev. and Psychology, GSE&IS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Human Development and Psychology"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CCSC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "California Center for Sustainable Communities "
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CAVPP"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UCLA Community"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "department_or_program",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "USC - MMLIS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USC Libraries"
+      }
+    ],
+    "description": "Mass edit cells in column department_or_program"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "categories",
+    "keyColumnName": "event_id",
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "description": "Split multi-valued cells in column categories"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "categories",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column categories using expression value.trim()"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "categories",
+    "keyColumnName": "event_id",
+    "separator": "|",
+    "description": "Join multi-valued cells in column categories"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "categories",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "practices",
+    "columnInsertIndex": 9,
+    "description": "Create column practices at index 9 based on column categories using expression grel:value"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "A Hands-on Introduction to Literate Programming in R",
+                "l": "A Hands-on Introduction to Literate Programming in R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Science|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reproducible research"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Advanced R Book Club",
+                "l": "Advanced R Book Club"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data Science|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Advanced R Book Club",
+                "l": "Advanced R Book Club"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Building interactive data applications with Shiny",
+                "l": "Building interactive data applications with Shiny"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data visualization"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data & Open Science in Sustainability Research",
+                "l": "Data & Open Science in Sustainability Research"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data|Open Science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data management"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data & Open Science in Sustainability Research",
+                "l": "Data & Open Science in Sustainability Research"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "data management"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data literacy"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data and Donuts",
+                "l": "Data and Donuts"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data literacy"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Carpentry Workshop",
+                "l": "Data Carpentry Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpentries"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Cleaning with OpenRefine",
+                "l": "Data Cleaning with OpenRefine"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data|Open Refine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data cleaning"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Cleaning with R",
+                "l": "Data Cleaning with R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data cleaning"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Cleaning with R",
+                "l": "Data Cleaning with R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data cleaning"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Intro & Data skills",
+                "l": "Data Intro & Data skills"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Refine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data literacy"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Management: File Organization",
+                "l": "Data Management: File Organization"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data management"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Publishing with Dryad and Persistent Identifiers with Research Organization Registry: CDL Visit with Updates on New Products",
+                "l": "Data Publishing with Dryad and Persistent Identifiers with Research Organization Registry: CDL Visit with Updates on New Products"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data Publishing"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data publishing"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Sharing Bootcamp",
+                "l": "Data Sharing Bootcamp"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data publishing"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Visualization in R",
+                "l": "Data Visualization in R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data visualization"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Data Visualization in R",
+                "l": "Data Visualization in R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data visualization"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Developing a (FAIR) skills program to facilitate data intensive research",
+                "l": "Developing a (FAIR) skills program to facilitate data intensive research"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data management"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Faculty Development Workshop:  Teaching Transparent Methods of Empirical Research",
+                "l": "Faculty Development Workshop:  Teaching Transparent Methods of Empirical Research"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reproducible research"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ICPSR Data Fair 2018 - Data: Powered By You ",
+                "l": "ICPSR Data Fair 2018 - Data: Powered By You "
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data management"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Intro to Python",
+                "l": "Intro to Python"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Introducing Los Angeles Region Imagery Acquisition Consortium (LARIAC) Program at UCLA",
+                "l": "Introducing Los Angeles Region Imagery Acquisition Consortium (LARIAC) Program at UCLA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "geospatial"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Introduction to Los Angeles Region Imagery Acquisition Program (LARIAC)",
+                "l": "Introduction to Los Angeles Region Imagery Acquisition Program (LARIAC)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "geospatial"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Introduction to R",
+                "l": "Introduction to R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Introduction to SQL",
+                "l": "Introduction to SQL"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "databases"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Introduction to Tableau Data Visualization",
+                "l": "Introduction to Tableau Data Visualization"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data visualization"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Introduction to the Bash Shell Command Line",
+                "l": "Introduction to the Bash Shell Command Line"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Library Carpentry Workshop",
+                "l": "Library Carpentry Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpentries"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Library Carpentry Workshop",
+                "l": "Library Carpentry Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Love Data Week 2019",
+                "l": "Love Data Week 2019"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data literacy"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Open Refine Workshop",
+                "l": "Open Refine Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpentries|Open Refine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Open Refine Workshop",
+                "l": "Open Refine Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "coding & data science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data cleaning"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Open Refine Workshop",
+                "l": "Open Refine Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Refine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data cleaning"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Web Scraping with Python",
+                "l": "Web Scraping with Python"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "web scraping"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Version Control with Git",
+                "l": "Version Control with Git"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "version control"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Using Data Effectively: Carpentries Teach Tools and Best Practices",
+                "l": "Using Data Effectively: Carpentries Teach Tools and Best Practices"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpentries"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Software Carpentry Workshop",
+                "l": "Software Carpentry Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Carpentries|Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Software Carpentry Workshop",
+                "l": "Software Carpentry Workshop"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Science|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "RLadies Book Club - Advanced R Part 5: Debugging!",
+                "l": "RLadies Book Club - Advanced R Part 5: Debugging!"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data Science|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "R Working Group - MURP",
+                "l": "R Working Group - MURP"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "R Programming Fundamentals",
+                "l": "R Programming Fundamentals"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "R - Data Acquisition & Prep in R",
+                "l": "R - Data Acquisition & Prep in R"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "data cleaning"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Python Fundamentals",
+                "l": "Python Fundamentals"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Python for Data Science",
+                "l": "Python for Data Science"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data|Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Python Book Club",
+                "l": "Python Book Club"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Python and Jupyter Notebooks: Hands-on",
+                "l": "Python and Jupyter Notebooks: Hands-on"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reproducible research"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Programming Pizza Party (CANCELED)",
+                "l": "Programming Pizza Party (CANCELED)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "title",
+          "expression": "value",
+          "columnName": "title",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Python for Data Science",
+                "l": "Python for Data Science"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Python"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Data|R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "R (programming language)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "coding & data science"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "practices",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Open Science Framework|Open Science"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "reproducible research"
+      }
+    ],
+    "description": "Mass edit cells in column practices"
+  }
+]
