@@ -1,0 +1,236 @@
+---
+title: "Data Science Center - FY 2018/2019 Service Statistics"
+output: 
+  beamer_presentation:
+    theme: metropolis
+    colortheme: bruin
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+```{r setup, include=F, message=FALSE}
+#install.packages("googledrive")
+library(googledrive)
+library(tidyverse)
+library(scales)
+options(stringsAsFactors = F)
+library(readr)
+library(RColorBrewer)
+library(viridis)
+library(kableExtra)
+library(tidyr)
+library(htmlTable)
+library(stringr)
+library(janitor)
+library(lubridate)
+library(calecopal)
+library(tidytext) # for NLP
+library(stringr) # to deal with strings
+library(wordcloud) # to render wordclouds
+library(DT) # for dynamic tables
+```
+
+```{r read-data, include=FALSE, message=FALSE}
+#dscstats <- read_csv('data/dsc_stats_clean.csv') # cleaned via openrefine
+dscstats <- read_csv('data/workshops_events.csv') #incl. external workshops, inst training
+dscstats <- clean_names(dscstats)
+
+load('data/workshop_obs.RData')
+load('data/consulting_obs.RData')
+```
+
+```{r filter_fy18-19, echo=FALSE}
+wkshop18_19 <- workshop_obs %>% 
+  filter(date >= "2018-07-01" & date <= "2019-06-30")
+```
+
+## Instruction Fiscal Year 2018/19
+
+* Addresses researcher, staff, and librarian skills gaps in data science and foundation coding skills. 
+* Member of the Carpentries, a global community of volunteer instructors.
+* Contribute to curricula and train-the-trainer best practices nationally and international. 
+* For FY 2018/19, this program has offered **`r length(unique(wkshop18_19$date))`** workshops or educational events to the UCLA community to **`r nrow(wkshop18_19)`** attendees.
+
+## Workshop attendance by campus role 
+
+```{r by-audience, echo=FALSE}
+wkshop18_19 %>% 
+  filter(institution == "UCLA") %>% 
+  count(role) %>% 
+  drop_na() %>% 
+  ggplot(aes(x=reorder(str_to_title(role), -n), y=n)) + 
+    geom_col(fill="#2774AE") +
+    coord_flip() +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1)) + 
+    labs(x = "Status", y="Attendance") + 
+    geom_text (aes(label=n), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Attendance by data science topic by role 
+
+```{r attendance-by-topic, echo=FALSE}
+workshop_obs %>% 
+  group_by(practice_topic, role) %>% 
+  summarize(number_people = n()) %>% 
+  drop_na(role, practice_topic) %>% 
+  ggplot(aes(x=practice_topic, y=number_people, fill = str_to_title(role))) + 
+    geom_col(position = "dodge") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    #scale_fill_brewer() +
+    labs(title = "Attendance by Practice and Topic Taught by Audience", x= "Practice or topic", y="Attendance", fill = "Role") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    theme_minimal()
+```
+
+## Attendance by tool taught by audience
+
+
+```{r Event attendance-by-tool, echo=FALSE}
+workshop_obs  %>% 
+  group_by(tool, role) %>% 
+  summarize(number_people = n()) %>% 
+  drop_na(role, tool) %>% 
+  ggplot(aes(x=str_to_title(tool), y=number_people, fill = str_to_title(role))) + 
+    geom_col(position = "dodge") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    #scale_fill_brewer() +
+    labs(title = "Attendance by Tool Taught by Audience", x= "Data Science Tool", y="Attendance", fill = "Role") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    theme_minimal()
+```
+
+## Attendance by tool: 
+
+```{r attendance_role_status, echo=FALSE}
+#reshape to include tool2
+wkshop18_19  %>% 
+  #gather()
+  group_by(tool) %>% 
+  summarize(number_status = n()) %>% 
+  drop_na(tool) %>% 
+  #ggplot(aes(x=reorder(str_to_title(role), -number_status), y=number_status)) + 
+  ggplot(aes(x=reorder(str_to_title(tool), -number_status), y=number_status)) + 
+    geom_col(fill="#2774AE") +
+    coord_flip() +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1)) + 
+    labs(x = "Status", y="Attendance") + 
+    geom_text (aes(label=number_status), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Campus Reach
+
+```{r number-depts, echo=FALSE}
+num_depts <- wkshop18_19 %>% filter(dept != "Library") %>% drop_na(dept) %>% distinct(dept) %>% nrow()
+```
+
+For our workshops in 2018/19, learners come from **`r num_depts`** different departments, schools or centers. 
+
+## Top departments by attendance
+
+```{r top_ten_depts, echo=FALSE}
+wkshop18_19 %>% filter(dept != "Library") %>% 
+  select(dept) %>% 
+  drop_na() %>% 
+  rename(Departments = dept) %>% 
+  count(Departments) %>% 
+  rename(Number = n) %>% 
+  arrange(desc(Number)) %>% 
+  head(5) %>% 
+  ggplot(aes(x=reorder(Departments, -Number), y=Number)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Department", y="Attendance", fill = "Role") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    scale_x_discrete(labels=c("Urban & Regional Planning " = "Urban & Regional Planning", "Graduate School of Education and Information Studies" = "GSE&IS",
+                              "Master of Social Science" = "Master of Social Science", "IoES" = "IoES", "Anderson" = "Anderson")) +
+      geom_text (aes(label=Number), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Top attendance by divisions
+
+```{r division-top, echo=FALSE}
+wkshop18_19 %>% filter(dept != "Library" & division != "Graduate School of Education and Information Studies") %>% 
+  select(division) %>% 
+  drop_na() %>% 
+  rename(Division = division) %>% 
+  count(Division) %>% 
+  rename(Number = n) %>% 
+  arrange(desc(Number)) %>% 
+  head(10) %>% 
+  ggplot(aes(x=reorder(Division, -Number), y=Number)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Division or School", y="Attendance", fill = "Role") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    scale_x_discrete(labels=c("Urban & Regional Planning " = "Urban & Regional Planning", "Graduate School of Education and Information Studies" = "GSE&IS",
+                              "Master of Social Science" = "Master of Social Science", "IoES" = "IoES", "Anderson" = "Anderson")) +
+      geom_text (aes(label=Number), hjust= -0.12) +
+    theme_minimal()
+
+```
+
+## Consultations 
+
+We work with researchers to help them accomplish their research goals. 
+
+```{r consulting, echo=FALSE}
+consulting_obs %>% 
+  group_by(year = year(start_date_time)) %>% 
+  summarize(consults = sum(n())) %>% 
+  ggplot(aes(reorder(year, -consults), consults)) + geom_col(fill = "#2774AE") + 
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Year", y="Consults") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=consults), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Word Cloud by Consultation Topic
+
+```{r leave-in-r, echo=FALSE}
+stop_words_calendly <- stop_words %>% 
+  filter(word != "r")
+```
+
+
+```{r remove-stopwords, echo=FALSE}
+# tokenize
+consult_tokens <- consulting_obs %>% 
+  unnest_tokens(word, response_1) %>% 
+  dplyr::count(word, sort = TRUE) %>% 
+  ungroup() %>% 
+  anti_join(stop_words_calendly, by="word")
+```
+```{r remove-numbers, echo=FALSE}
+# remove numbers
+nums <- consult_tokens %>% filter(str_detect(word, "^[0-9]")) %>% select(word) %>% unique()
+
+consult_tokens <- consult_tokens %>% 
+  anti_join(nums, by = "word")
+```
+
+
+```{r remove-unique-stopwords, echo=FALSE}
+# remove unique stop words that snuck in there
+uni_sw <- data.frame(word = c("data","tim","follow", "love", "presner", "sheppard", "jamie", "leigh", "todd", "pasta", "senior", "personal", "dave", "meeting", "appointment", "week", "discuss", "https", "hope", "charm", "science", "set", "talk", "time", "careers", "list", "thesis", "idea", "learn", "learning", "potential", "recommended", "google", "research", "street", "project", "hear", "process", "limited", "student", "completing", "ucla", "download", "american", "figuring", "knowledge", "time's", "current", "late", "questions", "sets", "wondering", "team", "calendly", "undergraduate", "schedule", "vendor", "stuff", "paper", "dsc", "disserataion", "social", "study", "writing"))
+
+consult_tokens <- consult_tokens %>% 
+  anti_join(uni_sw, by = "word")
+```
+
+```{r word-cloud, echo=FALSE}
+# define a nice color palette
+pal <- brewer.pal(8,"Dark2")
+
+# plot the 50 most common words
+consult_tokens %>% 
+  with(wordcloud(word, n, random.order = FALSE, max.words = 50, colors=pal))
+```
+
