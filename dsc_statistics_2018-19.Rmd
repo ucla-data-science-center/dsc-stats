@@ -177,7 +177,7 @@ wkshop18_19 %>% filter(dept != "Library" & division != "Graduate School of Educa
 
 ## Consultations 
 
-We work with researchers to help them accomplish their research goals. 
+We work with researchers one-on-on to help them accomplish their research goals. We've shown 
 
 ```{r consulting, echo=FALSE}
 consulting_obs %>% 
