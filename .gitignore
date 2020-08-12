@@ -7,4 +7,4 @@
 .DS*
 *.tsv
 *.csv
-!workshop_events.csv
+!workshops_events.csv

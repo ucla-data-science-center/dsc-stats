@@ -1,0 +1,64 @@
+Event ID,title-norm,Date,Attendance,review-cat,URL,Presenter,Audiences,Waiting-List Registrations,TYPE,date format,year,Title
+3495514,A Hands-on Introduction to Literate Programming in R,8/25/2017,25,libserv,,"Tim Dennis, Harrison Dekker",,2,,August,2017,A Hands-on Introduction to Literate Programming in R
+5687580,Advanced R Book Club,8/10/2019,10,libserv,,,,0,,August,2019,Advanced R Book Club Part 2: Functional Programming
+5701496,Advanced R Book Club,8/24/2019,8,libserv,,,UCLA Community,0,,August,2019,Advanced R Book Club Part 3: OO Programming
+5701512,Advanced R Book Club,9/7/2019,10,libserv,,,UCLA Community,0,,September,2019,Advanced R Book Club Part 4: OO Programming
+5967138,Advanced R Book Club,10/19/2019,10,libserv,,,,0,,October,2019,RLadies Book Club - Advanced R Part 5: Debugging!
+5967178,Advanced R Book Club,11/9/2019,10,libserv,,,,0,,November,2019,Advanced R Book Club Part 6
+4603540,Building interactive data applications with Shiny,12/4/2018,10,libserv,,Tim Dennis,,0,,December,2018,Building interactive data applications with Shiny
+2017-04-24-ttt-online-vatech-nist,Carpentries Instructor Training,4/26/17,30,outlib,https://jt14den.github.io/2017-04-24-ttt-online-vatech-nist/,"Dennis, Tim; Koch, Christina",Virginia Tech/NIST,,ttt,April,2017,Carpentries Instructor Training
+2017-05-04-portland-ttt,Carpentries Instructor Training,5/4/17,25,outlib,https://weaverbel.github.io/2017-05-04-portland-ttt/,"Dennis, Tim; Weaver, Belinda",Librarian US,,ttt,May,2017,Carpentries Instructor Training
+2017-10-09-NWU-eResearch-ttt,Carpentries Instructor Training,10/9/17,30,outlib,https://nwu-eresearch.github.io/2017-10-09-NWU-eResearch-ttt/,"Dennis, Tim; Steyn, Juan; van der Walt, Anelda",African Country,,ttt,October,2017,Carpentries Instructor Training
+2018-07-18-ttt-online,Carpentries Instructor Training,7/18/18,20,outlib,https://jcoliver.github.io/2018-07-18-ttt-online/,"Dennis, Tim; Oliver, Jeff",Carpentries Instructor Training,,ttt,July,2018,Carpentries Instructor Training
+2018-10-10-ttt-online-PST,Carpentries Instructor Training,10/10/18,15,outlib,https://jcoliver.github.io/2018-10-10-ttt-online-PST/,"Dennis, Tim; Oliver, Jeff",Carpentries Instructor Training,,ttt,October,2018,Carpentries Instructor Training
+2018-10-24-ttt-providence,Carpentries Instructor Training,10/25/18,17,outlib,https://jt14den.github.io/2018-10-24-ttt-providence/,"Dennis, Tim; SherAaron",Carpentries Instructor Training,,ttt,October,2018,Carpentries Instructor Training
+2018-11-27-ttt-online,Carpentries Instructor Training,11/27/18,27,outlib,https://arokem.github.io/2018-11-27-ttt-online/,"Dennis, Tim; Rokem, Ariel",Carpentries Instructor Training,,ttt,November,2018,Carpentries Instructor Training
+4980386,Data Acquisition & Prep in R,2/4/2019,25,libserv,,Tim Dennis,Urban & Regional Planning,0,,February,2019,R - Data Acquisition & Prep in R
+5870745,Data Carpentry Workshop,10/16/2019,36,libserv,,"Kristian Allen, Jamie Jamison & Leigh Phan",,0,dc,October,2019,"Data Carpentry for Social Science: Oct 16-17 & 23-24, 2019"
+5967199,Data Carpentry Workshop,10/23/2019,0,libserv,,"Kristian Allen, Jamie Jamison & Leigh Phan",,0,dc,October,2019,"Data Carpentry for Social Science: Oct 23-24, 2019"
+3835765,Data Cleaning with R,2/6/2018,30,libserv,,,,0,,February,2018,Data Cleaning with R
+4582642,Data Cleaning with R,10/18/2018,56,libserv,,Tim Dennis,,0,,October,2018,Data cleaning and preparation in R using DPLYR and TidyR
+4892156,Data Cleaning with R,1/31/2019,10,libserv,,Tim Dennis,UCLA Community,0,,January,2019,Data cleaning and preparation in R using DPLYR and TidyR
+4964073,Data Intro & Data skills,1/23/2019,44,libserv,,"Tim Dennis, Jamie Jamison & Leigh Phan",Urban & Regional Planning,0,,January,2019,Data Intro & Data skills
+3852521,Data Management: File Organization,2/13/2018,15,libserv,,,,9,,February,2018,Data Management: File Organization
+3845582,Data Sharing Bootcamp,2/12/2018,19,libserv,,Daniella Lowenberg,,0,,February,2018,Data Sharing Bootcamp
+3835761,Data Visualization in R,1/30/2018,29,libserv,,Tim Dennis,,0,,January,2018,Data Visualization in R
+4603495,Data Visualization in R,11/1/2018,23,libserv,,Tim Dennis,,0,,November,2018,Data Visualization in R using GGPLOT2
+3845834,Faculty Development Workshop: Teaching Transparent Methods of Empirical Research,3/12/2018,6,libserv,,"Norm Medeiros, Richard Ball, David Vera",,0,,March,2018,Faculty Development Workshop: Teaching Transparent Methods of Empirical Research
+5584626,Grand Tour of the Data Science Center (DSC),7/23/2019,0,libserv,,"Kristian Allen, Jamie Jamison & Leigh Phan",UCLA Community,0,,July,2019,Grand Tour of the Data Science Center (DSC)
+4621279,ICPSR Data Fair 2018,10/1/2018,4,libserv,,,,0,,October,2018,ICPSR Data Fair 2018 - Data: Powered By You - Day 1
+4626430,ICPSR Data Fair 2018,10/2/2018,3,libserv,,,,0,,October,2018,ICPSR Data Fair 2018 - Data: Powered By You - Day 2
+4626437,ICPSR Data Fair 2018,10/3/2018,3,libserv,,,,0,,October,2018,ICPSR Data Fair 2018 - Data: Powered By You - Day 3
+4626440,ICPSR Data Fair 2018,10/4/2018,3,libserv,,ICPSR,,0,,October,2018,ICPSR Data Fair 2018 - Data: Powered By You - Day 4
+4626443,ICPSR Data Fair 2018,10/5/2018,4,libserv,,ICPSR,,0,,October,2018,ICPSR Data Fair 2018 - Data: Powered By You - Day 5
+3835760,Introduction to R,1/25/2018,30,libserv,,Data Archive & Tim Dennis,,11,,January,2018,Introduction to R
+4980361,Introduction to R,1/28/2019,40,libserv,,"Kristian Allen, Tim Dennis & Leigh Phan",Urban & Regional Planning,0,,January,2019,Introduction to R
+4919740,Introduction to R,1/29/2019,13,libserv,,Tim Dennis,UCLA Community,0,,January,2019,Introduction to R
+4205885,Library Carpentry Global Lesson Sprint,5/10/2018,10,libserv,,,,0,,May,2018,Library Carpentry Global Lesson Sprint
+4205886,Library Carpentry Global Lesson Sprint,5/11/2018,7,libserv,,,,0,,May,2018,Library Carpentry Global Lesson Sprint
+2017-05-18-pitt,Library Carpentry Workshop,5/18/2017,39,outlib,,"Tim Dennis, James Bake",,,lc,May,2017,Library Carpentry Workshop - DS4L - Pitt
+3496418,Library Carpentry Workshop,9/8/2017,27,libserv,,,,0,lc,September,2017,Library Carpentry Workshop
+4205958,Library Carpentry Workshop,5/24/2018,30,libserv,,,,0,lc,May,2018,Library Carpentry Workshop
+4205959,Library Carpentry Workshop,5/25/2018,30,libserv,,,,0,lc,May,2018,Library Carpentry Workshop
+2018-08-28-usc,Library Carpentry Workshop,8/28/2018,26,outlib,https://ucla-data-archive.github.io/2018-08-28-usc/,,usc|ucla|lmu|lapl,,lc,August,2018,Library Carpentry Workshop
+5526595,Library Carpentry Workshop,7/24/2019,25,libserv,,"Kristian Allen, Jamie Jamison & Leigh Phan",UCLA Community,0,lc,July,2019,Library Carpentry Workshop - UCLA - July 24-25 - 9-4:30PM
+3603414,Open Refine Workshop,9/22/2017,8,libserv,,Jamie Jamison & Tim Dennis,,0,,September,2017,Open Refine Continued and Bring Your Own Dirty Data
+3903330,Open Refine Workshop,1/30/2018,2,libserv,,Jamie Jamison,,0,,January,2018,Open Refine Meetup
+3541619,Open Science Framework for Research Workflows,10/18/2017,15,libserv,,OSF Instructor,,0,,October,2017,Open Science Framework for Research Workflows
+3852272,Programming Pizza Party,2/1/2018,12,libserv,,,,0,,February,2018,Programming Pizza Party (R/Python)
+3852646,Programming Pizza Party,2/15/2018,11,libserv,,,,0,,February,2018,Programming Pizza Party (Python/R/Data)
+4206002,Programming Pizza Party,5/17/2018,10,libserv,,,,0,,May,2018,Programming Pizza Party: Python & R
+5156548,R Programming Fundamentals,4/16/2019,23,libserv,,Kristian Allen & Tim Dennis,UCLA Community,0,,April,2019,R Programming Fundamentals
+5156635,R Programming Fundamentals,4/18/2019,9,libserv,,Kristian Allen & Tim Dennis,UCLA Community,0,,April,2019,R Programming Fundamentals 2
+5363960,R Working Group - MURP,4/22/2019,15,libserv,,,Urban & Regional Planning,0,,April,2019,R Working Group - MURP
+5363961,R Working Group - MURP,4/29/2019,15,libserv,,,Urban & Regional Planning,0,,April,2019,R Working Group - MURP
+5363962,R Working Group - MURP,5/6/2019,10,libserv,,,Urban & Regional Planning,0,,May,2019,R Working Group - MURP
+5363963,R Working Group - MURP,5/13/2019,15,libserv,,,Urban & Regional Planning,0,,May,2019,R Working Group - MURP
+5363964,R Working Group - MURP,5/20/2019,12,libserv,,,Urban & Regional Planning,0,,May,2019,R Working Group - MURP
+3500760,Software Carpentry Workshop,10/16/2017,27,libserv,https://ucla-data-archive.github.io/2017-10-16-ucla/,Tim Dennis,,0,swc,October,2017,Software Carpentry Workshop (R version)
+2018-04-07-ucla-eeb,Software Carpentry Workshop,4/7/2018,19,libserv,https://ucla-data-archive.github.io/2018-04-07-ucla-eeb/,,,,swc,April,2018,Software Carpentry Workshop
+4812166,Software Carpentry Workshop,1/9/2019,34,libserv,,"Kristian Allen, Scott Friedman & Deidre Whitmore",UCLA Community,0,,January,2019,Software Carpentry Workshop - Python
+3512041,Using Data Effectively: Carpentries Teach Tools and Best Practices,9/7/2017,20,libserv,,"Juliane Schneider, Belinda Weaver, John Chodacki, Todd Grappone",,0,,September,2017,Using Data Effectively: Carpentries Teach Tools and Best Practices
+4888977,Web Scraping with Python,2/28/2019,13,libserv,,Jamie Jamison & Leigh Phan,UCLA Community,0,,February,2019,Web Scraping with Python
+2017-09-30-lc-south-africa,Library Carpentry Workshop,9/30/17,13,outlib,https://nwu-digitalhumanities.github.io/2017-09-30-lc-south-africa/,Tim Dennis,,,,,,
+2018-06-10-baltimore-sla,Library Carpentry Workshop,6/10/2018,15,outlib,https://jt14den.github.io/2018-06-10-baltimore-sla/,,,,,,,
