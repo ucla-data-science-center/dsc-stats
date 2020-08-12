@@ -1,9 +1,10 @@
 .Rproj.user
 .Rhistory
-.RData
+*.RData
 .Ruserdata
 .httr-oauth
 *.csv
 *.html
 *.log
 .DS*
+*.tsv

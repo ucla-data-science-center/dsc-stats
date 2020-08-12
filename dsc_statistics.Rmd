@@ -1,23 +1,16 @@
 ---
-title: "Data Science Center - Instruction Statistics"
+title: "Data Science Center - FY 2018/2019 Statistics"
 output: 
-  revealjs::revealjs_presentation:
-    self_contained: false
-    reveal_plugins: ["search", "zoom", "notes", "chalkboard", "menu"]
-    reveal_options:
-      chalkboard: 
-        theme: chalkboard
-        toggleNotesButton: true
-      menu:
-        numbers: true
+  beamer_presentation:
+    theme: ucla
+    latex_engine: xelatex
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 ---
 
 ```{r setup, include=F, message=FALSE}
 #install.packages("googledrive")
 library(googledrive)
-library(dplyr)
-library(ggplot2)
+library(tidyverse)
 library(scales)
 options(stringsAsFactors = F)
 library(readr)
@@ -29,120 +22,155 @@ library(htmlTable)
 library(stringr)
 library(janitor)
 library(lubridate)
+library(calecopal)
 ```
 
 ```{r read-data, include=FALSE, message=FALSE}
 #dscstats <- read_csv('data/dsc_stats_clean.csv') # cleaned via openrefine
 dscstats <- read_csv('data/workshops_events.csv') #incl. external workshops, inst training
 dscstats <- clean_names(dscstats)
-dscstats_obs <- read_csv('data/dsc_stats_clean.csv') #observational data from libcal
+
+load('data/workshop_obs.RData')
+load('data/consulting_obs.RData')
 ```
+
+```{r filter_fy18-19, echo=FALSE}
+wkshop18_19 <- workshop_obs %>% 
+  filter(date >= "2018-07-01" & date <= "2019-06-30")
+```
+
 
 ```{r color_palette, echo=FALSE}
 # The palette with grey:
 cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-uclaPalette <- c("#2D68C4", "#F2A900", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+uclaPalette <- c("#2774AE", "#FFD100", "#003B5C", "#00FF87", "#FFB81C", "#8237FF", "#D55E00", "#CC79A7","#2774AE")
 ```
 
-## Data Science Center Instruction 
+## Instruction Fiscal Year 2018/19
 
-* We manage an educational program that address researcher, staff, and librarian skills gaps in data best practices, reproducible research, and foundation coding skills. 
-* we are members of the Carpentries, a diverse, global community of volunteer instructors, we also contribute to data/coding curricula and train-the-trainer best practices nationally and international. 
-* From 2017 to `r year(today())`, this program has offered `r nrow(dscstats)` workshops or educational events to the UCLA community and global ___
+* Addresses researcher, staff, and librarian skills gaps in data science and foundation coding skills. 
+* Member of the Carpentries, a global community of volunteer instructors
+* Contribute to curricula and train-the-trainer best practices nationally and international. 
+* From July 2018 to June 2019, this program has offered **`r length(unique(wkshop18_19$date))`** workshops or educational events to the UCLA community.
 
 
-## Number of Attendance by Quarter
+## Workshop attendance by campus role 
 
-```{r}
-dscstats %>% 
-  mutate(date = mdy(date)) %>% 
-  group_by(month = floor_date(date, "month")) %>% 
-  tally(attendance) %>% 
-  ggplot(aes(x = month, y = n)) + geom_line()
+```{r by-audience, echo=FALSE}
+wkshop18_19 %>% 
+  filter(institution == "UCLA") %>% 
+  count(role) %>% 
+  drop_na() %>% 
+  ggplot(aes(x=reorder(str_to_title(role), -n), y=n)) + 
+    geom_col(fill="#2774AE") +
+    coord_flip() +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1)) + 
+    labs(x = "Status", y="Attendance") + 
+    geom_text (aes(label=n), hjust= -0.12) +
+    theme_minimal()
 ```
 
+## Attendance by data science topic by role 
 
-## Attendance by Data Science Tool/Topic by Role 
-
-To get a sense of what we teach and what our audience for instruction is: 
-
-
-```{r attendance-by-topic, echo=FALSE, eval=F}
-dsc_tot %>% 
+```{r attendance-by-topic, echo=FALSE}
+workshop_obs %>% 
   group_by(practice_topic, role) %>% 
   summarize(number_people = n()) %>% 
   drop_na(role, practice_topic) %>% 
   ggplot(aes(x=practice_topic, y=number_people, fill = str_to_title(role))) + 
     geom_col(position = "dodge") +
     coord_flip() +
-    scale_fill_manual(values=uclaPalette) +
+    scale_fill_manual(values=cal_palette("kelp1")) +
     #scale_fill_brewer() +
     labs(title = "Attendance by Practice and Topic Taught by Audience", x= "Practice or topic", y="Attendance", fill = "Role") +
     theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
     theme_minimal()
 ```
 
-## By Tool Taught
+## Attendance by tool taught by audience
 
-We also teach with a range of tools, including R, Python, OpenRefine (a data cleaning tool) and LARIAC (a geospatial imagery data tool for LA). We also offer data-focused courses that don't include a specific **tool**, so we include below as **data**: 
 
-```{r Event attendance-by-tool, echo=FALSE, eval=F}
-
-stats %>% 
+```{r Event attendance-by-tool, echo=FALSE}
+workshop_obs  %>% 
   group_by(tool, role) %>% 
   summarize(number_people = n()) %>% 
   drop_na(role, tool) %>% 
   ggplot(aes(x=str_to_title(tool), y=number_people, fill = str_to_title(role))) + 
     geom_col(position = "dodge") +
     coord_flip() +
-    scale_fill_manual(values=uclaPalette) +
+    scale_fill_manual(values=cal_palette("kelp1")) +
     #scale_fill_brewer() +
     labs(title = "Attendance by Tool Taught by Audience", x= "Data Science Tool", y="Attendance", fill = "Role") +
     theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
     theme_minimal()
-
 ```
 
-## Attendance by role or status of attendance: 
+## Attendance by tool: 
 
-```{r attendance_role_status, echo=FALSE, eval=F}
-stats %>% 
-  group_by(role) %>% 
+```{r attendance_role_status, echo=FALSE}
+#reshape to include tool2
+wkshop18_19  %>% 
+  #gather()
+  group_by(tool) %>% 
   summarize(number_status = n()) %>% 
-  drop_na(role) %>% 
-   ggplot(aes(x=reorder(str_to_title(role), -number_status), y=number_status)) + 
-    geom_col()+ theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1)) + labs(title = "Total Attendance by Role", x = "Status", y="Attendance") +geom_text (aes(label=number_status), vjust= -0.5) +
-  theme_minimal()
+  drop_na(tool) %>% 
+  #ggplot(aes(x=reorder(str_to_title(role), -number_status), y=number_status)) + 
+  ggplot(aes(x=reorder(str_to_title(tool), -number_status), y=number_status)) + 
+    geom_col(fill="#2774AE") +
+    coord_flip() +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1)) + 
+    labs(x = "Status", y="Attendance") + 
+    geom_text (aes(label=number_status), hjust= -0.12) +
+    theme_minimal()
 ```
 
-## UCLA School & Reach
+## Campus Reach
 
-For UCLA learners, workshop attendees come from **r length(unique(stats$dept[stats$institution == "UCLA"]))** different UCLA Departments, Schools or Centers:
+```{r number-depts, echo=FALSE}
+num_depts <- wkshop18_19 %>% filter(dept != "Library") %>% drop_na(dept) %>% distinct(dept) %>% nrow()
+```
 
-```{r ucla-dept-attendance, echo=FALSE, eval=F}
-stats %>% 
-  filter(institution == "UCLA") %>% 
+For our workshops in 2018/19, learners came from **`r num_depts`** different departments, schools or centers. 
+
+## Top departments by attendance
+
+```{r top_ten_depts, echo=FALSE}
+wkshop18_19 %>% filter(dept != "Library") %>% 
   select(dept) %>% 
   drop_na() %>% 
   rename(Departments = dept) %>% 
-  distinct() %>% 
-  arrange(Departments) %>% 
-  kable() %>% kable_styling(latex_options = c("striped"))
+  count(Departments) %>% 
+  rename(Number = n) %>% 
+  arrange(desc(Number)) %>% 
+  head(5) %>% 
+  ggplot(aes(x=reorder(Departments, -Number), y=Number)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() +
+    labs(x= "Depatment", y="Attendance", fill = "Role") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    theme_minimal()
 ```
 
-## Region, National, and Goobal Contribution
+## Consultations 
 
-As as member of the Carpentries, we also contribute to their global mission to improve researchers' data and computing practices. We do this by developing lessons, training future trainers, or teaching workshops at other institutions. For example, as part of the **Carpentries African Taskforce**, the DSC was invited to South Africa to teach workshops for South African Librarians and also teach future instructors from other countries in Africa on how to effectively teach coding and data practices. We additionally invite other universities and organizations to some of our workshops. Finally, we teach Carpentries organized train-the-trainer events in person and online. Below, reflects the diversity of institutional attendance of our workshops and reflects the global contribution UCLA makes to improving data practices in the larger research communities.
+We work with researchers to help them accomplish their research goals. 
 
 
+```{r consulting, eval=FALSE}
+consulting_obs %>% 
+  group_by(year = year(start_date_time)) %>% 
+  summarize(consults = sum(n())) %>% 
+  ggplot(aes(reorder(year, -consults), consults)) + geom_col(fill = "#2774AE") + 
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Year", y="Consults") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    theme_minimal()
+```
 
-```{r ucla-inst-attendance, echo=FALSE, eval=F}
-stats %>% 
-  select(institution) %>% 
-  drop_na() %>% 
-  arrange(institution) %>% 
-  rename(Institutions = institution) %>% 
-  distinct() %>% 
-  kable() %>% kable_styling(latex_options = c("striped"))
+```{r consulting_topic, eval=FALSE}
+
+consulting_obs$response_1
+
 ```
 
