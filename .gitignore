@@ -1,10 +1,10 @@
 .Rproj.user
 .Rhistory
-*.RData
 .Ruserdata
 .httr-oauth
-*.csv
 *.html
 *.log
 .DS*
 *.tsv
+*.csv
+!workshop_events.csv
