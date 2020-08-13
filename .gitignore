@@ -8,3 +8,5 @@
 *.tsv
 *.csv
 !workshops_events.csv
+!departments-to-divisions.csv
+!csv_stats_for_clean.csv
