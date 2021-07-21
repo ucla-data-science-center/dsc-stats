@@ -1,0 +1,230 @@
+---
+title: "DSC Statistics: 2020-2021"
+author: "Tim Dennis"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(googledrive)
+library(tidyverse)
+library(scales)
+options(stringsAsFactors = F)
+library(readr)
+library(RColorBrewer)
+library(viridis)
+library(kableExtra)
+library(tidyr)
+library(htmlTable)
+library(stringr)
+library(janitor)
+library(lubridate)
+library(calecopal)
+library(tidytext) # for NLP
+library(stringr) # to deal with strings
+library(wordcloud) # to render wordclouds
+library(DT) # for dynamic tables
+```
+
+
+```{r read-data, include=FALSE, message=FALSE}
+#dscstats <- read_csv('data/dsc_stats_clean.csv') # cleaned via openrefine
+dscstats <- read_csv('data/workshops_events.csv') #incl. external workshops, inst training
+dscstats <- clean_names(dscstats)
+
+load('data/workshop_obs.RData')
+load('data/consulting_obs.RData')
+load('data/dsc_events_all.RData')
+
+#cleaning up the variable names with janitor 
+dsc_consult_2020 <- read_tsv('data/consulting-events.tsv')
+dsc_consult_2020 <- clean_names(dsc_consult_2020) 
+```
+
+```{r filter_fy20-21, echo=FALSE}
+consult20_21 <- dsc_consult_2020 %>% 
+  mutate(date = ymd_hms(start_date_time, truncated = 1)) %>% 
+  filter(date >= "2020-07-01" & date <= "2021-06-30")
+```
+
+## Events & Workshops
+
+The DSC puts on events for the UCLA community and for the larger UC system in collaboration with other campuses. We manage the Carpentries membership and provide community for over 10 instructors on the UCLA campus. Our workshops address researchers, staff, and librarians skills gaps in data science and foundation coding skills. We contribute to curricula and train-the-trainer best practices through a regional and global network. 
+
+To get a sense of the growth of events organized, taught & designed by the DSC community, let us look at attendance over time: 
+
+## Attendance over time 
+
+```{r workshops_year, echo=FALSE}
+dsc_2017_21_workshops %>% 
+  count(Year = year(date), name = "Number") %>%
+  #need to add aggregate data from libcal for love data week
+  #should find a way to fix in data 
+  mutate(Number = replace(Number, Number == 1096, 1493)) %>% 
+  ggplot(aes(reorder(Year, -Year), Number)) + geom_col(fill = "#2774AE") +
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Year", y="Attendance", title="DSC Event Attendance by Year") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Number), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Departments, Schools & Units 
+
+```{r number-depts, echo=FALSE}
+num_depts_wkshp <- dsc_2017_21_workshops %>% drop_na(department) %>% distinct(department) %>% nrow()
+num_depts_wkshp_20_21 <- dsc_2017_21_workshops %>%  filter(date >= "2020-07-01" & date <= "2021-06-30") %>% drop_na(department) %>% distinct(department) %>% nrow()
+num_depts_wkshp_17_20 <- dsc_2017_21_workshops %>%  filter(date >= "2017-07-01" & date <= "2020-06-30") %>% drop_na(department) %>% distinct(department) %>% nrow()
+```
+
+Since 2017, our workshops have been attended by **`r num_depts_wkshp`** different departments, schools, or centers from UCLA or other universities.  For FY 2020-21, we provided data services to **`r num_depts_wkshp_20_21`** campus departments. Prior to 2020, attendees in our events came from **`r num_depts_wkshp_17_20`** departments, primarily from the UCLA community. The jump in this number over the last year is directly related to switching to online instruction and collaboration efforts across the UC system to offer more event and workshop programming to UC academic communities. Note, it is more difficult to standardize non-UCLA departments, so the increased number also reflects variants in department names given by attendees. 
+
+## We can look at the top departments who attend our workshops:
+
+
+```{r departmens_attendance, echo=FALSE}
+dsc_2017_21_workshops %>% count(department, sort = TRUE, name = "Attendance") %>% drop_na(department) %>% 
+  head(15) %>% 
+  ggplot(aes(reorder(department, -Attendance), Attendance)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Department", y="Attendance", title="Top Departments by Attendance", subtitle = "2017-2021") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Attendance), hjust= -0.12) +
+    theme_minimal()
+```
+We can look at the same information, but for FY 2020-2021: 
+
+```{r departments_attendance20_21, echo=FALSE}
+dsc_2017_21_workshops %>% 
+  filter(date >= "2020-07-01" & date <= "2021-06-30") %>% 
+  count(department, sort = TRUE, name = "Attendance") %>% 
+  drop_na(department) %>% 
+  head(15) %>% 
+  ggplot(aes(reorder(department, -Attendance), Attendance)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Department", y="Attendance", title="Top 15 Departments by Attendance", subtitle = "July 2020 - June 2021") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Attendance), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Status of Attendee: 2020-21 
+
+```{r status_workshops, echo=FALSE}
+dsc_2017_21_workshops %>% 
+  filter(date >= "2020-07-01" & date <= "2021-06-30") %>% 
+  count(status, sort = TRUE, name = "Attendance") %>% 
+  drop_na(status) %>% 
+  head(5) %>% 
+  mutate(Percentage = Attendance/sum(Attendance) * 100) %>% 
+  ggplot(aes(reorder(status, -Attendance), Attendance)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Status", y="Attendance", title="Attendance by Status", subtitle = "2020-2021") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Attendance), hjust= -0.12) +
+    theme_minimal()
+```
+  
+  
+## Consultations 
+
+We work with researchers one-on-one to help them accomplish their research goals. Prior to the pandemic, we provided consultations online and in-person depending on the researchers preferences. We estimate that prior to March 2020, we provided consultation online approximately 10-15% of the time. Since March 2020, we moved our service to online only. Regardless of how users access our service, it has shown growth over time. 
+
+```{r consulting, echo=FALSE}
+dsc_consult_2020 %>% 
+  group_by(year = year(start_date_time)) %>% 
+  summarize(consults = sum(n())) %>% 
+  ggplot(aes(reorder(year, -consults), consults)) + geom_col(fill = "#2774AE") + 
+    coord_flip() + 
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Year", y="Consults") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=consults), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Campus Reach
+
+```{r number-depts-consult, echo=FALSE}
+num_depts <- dsc_consult_2020 %>% drop_na(dept_unit) %>% distinct(dept_unit) %>% nrow()
+num_depts_20_21 <- dsc_consult_2020 %>% filter(year(start_date_time) == 2020) %>% drop_na(dept_unit) %>% distinct(dept_unit) %>% nrow()
+```
+
+From 2019, when we started to capture more user information, our consults have come from **`r num_depts`** different departments, schools or centers. We include **The Library** in this number because, as a secondary and sometimes tertiary referral point, we often work with liaising Librarians and internal units needing data support. For FY 2020-21, we provided data services to **`r num_depts_20_21`** campus departments. 
+
+
+### Consulting by Department
+
+Top departments we consulted with in the DSC between 2019-2021. One note is we do not require patrons provide this information in our appointment scheduler, so the data is not fully complete. One thing the data show is that the DSC service is interdisciplinary in scope and practice. This aligns with its service vision and origin, namely, to broaden the reach of data services coming from the library. 
+
+```{r top_ten_depts, echo=FALSE}
+dsc_consult_2020 %>% 
+  select(dept_unit) %>% 
+  drop_na() %>% 
+  rename(Departments = dept_unit) %>% 
+  count(Departments) %>% 
+  rename(Number = n) %>% 
+  arrange(desc(Number)) %>% 
+  head(15) %>% 
+  ggplot(aes(x=reorder(Departments, -Number), y=Number)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Department", y="Consults", title = "Consulting by Department", subtitle = "2019-2021") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Number), hjust= -0.12) +
+    theme_minimal()
+```
+
+
+```{r top_ten_depts2021, echo=FALSE}
+consult20_21 %>% 
+  select(dept_unit) %>% 
+  drop_na() %>% 
+  rename(Departments = dept_unit) %>% 
+  count(Departments) %>% 
+  rename(Number = n) %>% 
+  arrange(desc(Number)) %>% 
+  head(15) %>% 
+  ggplot(aes(x=reorder(Departments, -Number), y=Number)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Department", y="Consults", title = "Consulting by Department", subtitle = "FY 2020-21") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Number), hjust= -0.12) +
+    theme_minimal()
+```
+
+## Researcher Status 
+
+When provided, we also collect information on our users' status. 
+
+```{r consults_status2021, echo=FALSE}
+consult20_21 %>% 
+  select(status) %>% 
+  drop_na() %>% 
+  rename(Status = status) %>% 
+  count(Status) %>% 
+  rename(Number = n) %>% 
+  arrange(desc(Number)) %>% 
+  ggplot(aes(x=reorder(Status, -Number), y=Number)) +
+    geom_col(fill = "#2774AE") +
+    coord_flip() +
+    scale_fill_manual(values=cal_palette("kelp1")) +
+    labs(x= "Status", y="Number", title="Consultations by Status: 2020-21") +
+    theme(axis.text.x = element_text(angle = 45, size = 10, hjust = 1))  +
+    geom_text (aes(label=Number), hjust= -0.12) +
+    theme_minimal()
+```
+
