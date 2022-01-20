@@ -1,6 +1,7 @@
 ---
 title: "Data Science Center - FY 2018/2019 Service Statistics"
-output: 
+output:
+  slidy_presentation: default
   beamer_presentation:
     theme: metropolis
     colortheme: bruin

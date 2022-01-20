@@ -1,0 +1,38 @@
+---
+title: "Year2021"
+author: "Tim Dennis"
+date: "12/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(ggplot2)
+library(calecopal)
+```
+
+
+```{r data, echo=FALSE}
+
+## workshops
+dsc17_21_wkshps <- read_csv("data/dsc_2017_21_workshops.csv")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r byyear, echo=FALSE}
+dsc_2017_21_workshops %>% 
+  count(year(date))
+```
+
+```{r}
+dsc_2017_21_workshops %>% 
+  filter(date > as_date("2021-01-01") & date < as_date("2021-12-31")) %>% 
+  count(month(date))
+```
+

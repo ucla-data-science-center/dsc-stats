@@ -228,3 +228,6 @@ consult20_21 %>%
     theme_minimal()
 ```
 
+This morning Dana Peterman asked me for DSC records of reference and instruction. He and Sharon need stats for a report for Ginny,  first 5 weeks of 2019/20, 2020/21 and 2021/22.
+ Is there any place else we might have stats? Also does anyone use Libinsites? thanks
+

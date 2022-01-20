@@ -1,6 +1,7 @@
 .Rproj.user
 .Rhistory
 .Ruserdata
+.RData
 .httr-oauth
 *.html
 *.log
@@ -10,3 +11,5 @@
 !workshops_events.csv
 !departments-to-divisions.csv
 !csv_stats_for_clean.csv
+!dsc_2017_21_workshops.csv
+!dsc17_21_with_consultatn.csv

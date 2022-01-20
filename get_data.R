@@ -6,22 +6,10 @@ library(lubridate)
 
 ### Workshop stats 
 
-## stats from 2017-2019 
-workshop_obs <- read_csv('data/dsc-workshop-attendance-2017-2019.csv')
-save(workshop_obs, file="data/workshop_obs.RData")
-load('data/workshop_obs.RData')
-
-dsc_2017_2019_workshops <- workshop_obs %>% 
-  select(event, date, role, dept, tool, division) %>% 
-  rename(department = dept, categories = tool, status = role)
-
 ## read in stats from 2020 on (including gis week)
 uc_gis2020 <- read_tsv('data/uc-gis-week-2020.tsv')
 dsc_2020_libcal <- read_tsv('data/2020-libcal-events_cleaned-tsv.tsv')
 dsc_uc_2020_events <- full_join(uc_gis2020, dsc_2020_libcal) 
-
-# merge older data with 2020
-dsc_2017_20_events <- full_join(dsc_uc_2020_events, dsc_2017_2019_workshops)
 
 # read in 2021 events data
 dsc_2021_events <- read_tsv("data/dsc_2021_events.tsv")
@@ -50,6 +38,7 @@ save(dsc_2017_21_workshops, file='data/dsc_events_all.RData')
 #save out as rda
 save(workshop_obs, file="data/workshop_obs.RData")
 
+################
 ## consulting 
 
 consulting_obs <- read_csv('data/calendly-events-export-2017-2019.csv')

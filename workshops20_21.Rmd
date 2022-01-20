@@ -1,0 +1,17 @@
+---
+title: "workshops 2020-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Events
+
+The DSC puts on events for the UCLA community and for the larger UC system in collaboration with other campuses. We manage the Carpentries membership and provide community for over 10 instructors on the UCLA campus. Our workshops address researchers, staff, and librarians skills gaps in data science and foundation coding skills. We contribute to curricula and train-the-trainer best practices through a regional and global network. 
+
+To get a sense of the growth of events organized, taught & designed by the DSC community, let us look at attendance over time: 
+
+## Attendance over time 
+
+
